@@ -50,13 +50,13 @@ Repositorio de prueba para la tarea 2.1.a
 
 1. Crea una carpeta llamada `UT2.1.a`.
 2. Inicializa un repositorio local en la carpeta `UT2.1.a`. `adjunta la imagen`<br>
-   ![Inicializar repositorio](img/01.1.png)  --> imagen de ejemplo, sustituye por el nombre de la imagen.
+   ![Inicializar repositorio](img/0.1.02.png)--> imagen de ejemplo, sustituye por el nombre de la imagen.
 
 3. Revisa qué rama se ha creado por defecto. ¿Desde dónde los visualizas? `adjunta la imagen`<br>
-   ![Rama por defecto](img/01.2.png) 
+   ![Rama por defecto](img/01.03.PNG) 
 
 4. Renombrar la rama por defecto a `main` en caso de que tenga otro nombre. `adjunta un gif`<br>
-   ![Renombrar rama](img/01.3.gif)
+   ![Renombrar rama](img/01.04.gif)
    
 5. Agrega un fichero `README.md`.
 
@@ -67,10 +67,10 @@ Repositorio de prueba para la tarea 2.1.a
    ```
 
 6. Agrega el fichero `README.md` al stage area. `adjunta un gif`<br>
-   ![Agregar README](img/01.6.gif)
+   ![Agregar README](img/01.05.gif)
 
 7. Realiza un commit con el mensaje "Add README". `adjunta un gif`<br>
-   ![Commit README](img/01.7.gif)
+   ![Commit README](img/01.06.gif)
 
 8. Agrega otro fichero `01.xml` con siguiente texto.
 
@@ -89,16 +89,17 @@ Repositorio de prueba para la tarea 2.1.a
    ```
 
 9.  Agrega el fichero `01.xml` al stage area y realiza el commit "Add file 01.xml" `adjunta un gif`<br>
-    ![Agregar 01.xml](img/01.9.gif)
+    ![Agregar 01.xml](img/01.07.gif)
 
 10. Agrega una nueva rama llamada `fea/wac01` con la ayuda git-graph. `adjunta un gif`<br>
+ ![Agregar rama fea/wac01](img/01.08.gif)
     
 11. En qué rama estas ahora mismo? ¿Cómo sabes en qué rama estás? `adjunta la imagen` y explica en breves palabras.
     ```text
     // Me encuentro en la rama main porque la rama situada mas a laizquierda es la rama en la que estas situado.
     
     ``` 
-    ![Rama actual](img/01.11.png)
+    ![Rama actual](img/01.09.png)
 
 12. Estando en la rama `fea/wac01` agrega un fichero `02.xml`, y agrega al área de stage y realiza commit "Add file 02". `adjunta un gif`<br>
 
@@ -115,9 +116,9 @@ Repositorio de prueba para la tarea 2.1.a
         </libro>
     </libreria>
     ```
-
+![Agregar rama fea/wac01](img/01.10.gif)
 13. Muestra el log (pantalla de git-graph donde se visualize el commit). `adjunta la imagen`<br>
-    ![Log rama fea/wac01](img/01.13.png)
+    ![Log rama fea/wac01](img/01.11.png)
 
 14. Posicionate de nuevo en la rama `main`, y crea otra rama `fea/wac02`, posicionandote directamente en ella. Agrega un fichero `03.xml`, agrega al área de stage y realiza commit "Add file 03".
 
@@ -136,22 +137,22 @@ Repositorio de prueba para la tarea 2.1.a
     ```
 
 15. Posicionate en la rama `main` y muestra los ficheros que hay en el directorio. (mostrar el arból de directorios de VS Code). `adjunta la imagen`<br>
-    ![Ficheros en main](img/01.15.png)
+    ![Ficheros en main](img/01.12.png)
 
 16. Realizar un merge de la rama `fea/wac01` en la rama `main`. `adjunta un gif`<br>
-    ![Merge rama fea/wac01](img/01.16.gif)
+    ![Merge rama fea/wac01](img/01.13.gif)
 
 17. Muestra el el log, y los ficheros que hay en el directorio. (mostrar el arból de directorios de VS Code) `adjunta la imagen`
-    ![Log y ficheros en main](img/01.17.gif)
+    ![Log y ficheros en main](img/01.14.png)
     
 18. Elimina la rama `fea/wac01` sin posibilidad de recuperación. `adjunta un gif`<br>
-    ![Eliminar rama fea/wac01](img/01.18.gif)
+    ![Eliminar rama fea/wac01]()
 
 19. Realiza un merge de la rama `fea/wac02` en la rama `main`. `adjunta un gif`<br>
-    ![Merge rama fea/wac02](img/01.19.gif)
+    ![Merge rama fea/wac02](img/01.15.gif)
     
 20. Muestra el log, y los ficheros que hay en el directorio. (Imagen) `adjunta la imagen`
-    ![Log y ficheros en main](img/01.20.png)
+    ![Log y ficheros en main](img/01.16.png)
 
 21. Vuelve a la rama `fea/wac02` y modifica el fichero `03.xml` añadiendo un nuevo libro.
     
@@ -179,13 +180,13 @@ Repositorio de prueba para la tarea 2.1.a
 
     Agrega al área de stage y realiza commit "Update 03 file. Add book El Silmarillion".<br>
     `adjunta un gif, donde se visualize el contenido del fichero y el commit`<br>
-    ![Modificar 03.xml](img/01.21.gif)
+    ![Modificar 03.xml](img/01.17.gif)
 
 22. Realiza un merge de la rama `fea/wac02` en la rama `main`. `adjunta un gif`<br>
-    ![Merge rama fea/wac02](img/01.22.gif)
+    ![Merge rama fea/wac02](img/01.18.gif)
 
 23. Muestra el log del repositorio, y muestra el contenido del fichero `03.xml`. (Imagen visualizando comandos) `adjunta gif`
-    ![Log y ficheros en main](img/01.23.gif)
+    ![Log y ficheros en main](img/0.1.19.png)
 
 24. Ahora, en la rama `main` modifica el fichero `03.xml` incluyendo un nuevo libro.
 
@@ -221,7 +222,7 @@ Repositorio de prueba para la tarea 2.1.a
 
     Agrega al área de stage y realiza commit "Update 03 file. Add book El Hobbit".<br>
     `adjunta un gif, donde se visualize el contenido del fichero y el commit`<br>
-    ![Modificar 03.xml](img/01.24.gif)
+    ![Modificar 03.xml](img/01.20.gif)
 
 25. Agrega un nuevo fichero `04.xml` sobre libros ciencia-ficcion, en la rama `main`.
 
@@ -242,23 +243,24 @@ Repositorio de prueba para la tarea 2.1.a
     Agrega al área de stage y realiza commit "Add 04 file. Add cienca-ficcion books".<br>
 
 26. Muestra el registro de commits (log) y los ficheros que hay en el directorio. `adjunta una imagen`<br>
-    ![Log y ficheros en main](img/01.26.png)
+    ![Log y ficheros en main](img/01.21.png)
     
 27. Vuelve un commit atrás, y muestra el log y los ficheros que hay en el directorio. `adjunta un gif`<br>
-    ![Volver un commit](img/01.27.gif)
+    ![Volver un commit](img/01.22.gif)
     
 28. Vuelve al commit anterior, y muestra el log y los ficheros que hay en el directorio. `adjunta un gif`<br>
-    ![Volver un commit](img/01.28.gif)
+    ![Volver un commit](img/01.23.gif)
 
 29. Posicionate de nuevo en el último commit, y muestra el log y los ficheros que hay en el directorio. `adjunta un gif`
-    ![Volver un commit](img/01.28.gif)
+    ![Volver un commit](img/01.24.gif)
 
 ### 2. Crear repositorio remoto y subir a GITHUB
 
 1. Crea un repositorio remoto en GITHUB llamado `EEDD_{NombreApellido}_TE2.1` público, vacio, sin nada.
    
 2. Agrega el repositorio remoto a tu repositorio local. Explica cómo lo haces, y `adjunta una imagen donde se visualizen las url's`<br>
-    ![Repositorio remoto](img/02.2.png)
+    ![Repositorio remoto](img/0.1.25.png)
+    ![Repositorio remoto](img/0.1.26.png)
 
    ```text
      he agregado el repositorio remoto al local mediante git graph dandole al engranaje que aparece arriba a la derecha en el log y introduciendo el nombre y link del repositorio remoto en el apartado remote configuration donde pone add remote.
@@ -266,11 +268,11 @@ Repositorio de prueba para la tarea 2.1.a
     ``` 
 
 3. Sube la rama `main` al repositorio remoto. `adjunta un gif`<br>
-    ![Subir rama main](img/02.3.gif)
+    ![Subir rama main](img/01.27.gif)
    
 
 4. Posicionate en la rama `fea/wac02` y sube la rama `fea/wac02` al repositorio remoto. `adjunta un gif`<br>
-    ![Subir rama fea/wac02](img/02.4.gif)
+    ![Subir rama fea/wac02](img/01.28.gif)
 
 5. Ahora desde GITHUB (web) en la rama `fea\wac02`, modifica el fichero `03.xml` añadiendo un nuevo libro.
 
@@ -313,37 +315,39 @@ Repositorio de prueba para la tarea 2.1.a
 
    Realiza un commit con el mensaje "Update 03 file. Add book El hombre bicentenario".
    (Muestra pantallazo de GITHUB con el commit realizado) `adjunta la imagen`
-
+    ![commit Update 03 file](img/01.29.png)
 6. Ahora obten los cambios sin acualizar el repositorio local (`git fetch origin`).<br>
    Muestra el log del repositorio local `adjunta la imagen`
+   ![log repositorio local](img/01.30.png)
     
 7.  Ahora actualiza el repositorio local con los cambios del repositorio remoto (`git pull`) y muestra el log. `adjunta un gif`<br>
-    ![Pull](img/02.7.gif)
+    ![Pull](img/01.31.gif)
 
 8.  Haz un merge de la rama `fea/wac02` en la rama `main`. Muestra estado, log, y el contenido fichero `03.xml` (Incluye imagen) `adjunta un gif`<br>
-    ![Merge](img/02.8.gif)
+    ![Merge](img/01.32.gif)
 
 9.  Sube la rama `main` al repositorio remoto. `adjunta una gif`<br>
-    ![Subir rama main](img/02.9.gif)
+    ![Subir rama main](img/01.33.gif)
 
 10. Elimina la rama local `fea/wac02` sin posibilidad de recuperación. `adjunta un gif`<br>
-    ![Eliminar rama fea/wac02](img/02.10.gif)
+    ![Eliminar rama fea/wac02](img/01.34.gif)
 
 11. Elimina la rama remota `fea/wac02` sin posibilidad de recuperación 
     ```text
-    // Respuesta
+    Al haberlo borrado primero la rama en el repositorio local solo he tenido que acceder al apartado de ramas en git hub, borrar la rama y
+    comfirmarlo. 
     
     ```
 12. Muestra desde GITHUB (navegador web) las ramas que tienes el en repositorio remoto. `adjunta un gif`<br>
-    ![Ramas en GITHUB](img/02.12.gif)
+    ![Ramas en GITHUB](img/01.35.gif)
 
 13. Para finalizar, muestra el log del repositorio local (Incluye imagen) `adjunta la imagen`<br>
-    ![Log](img/02.13.png)
+    ![Log](img/01.39.png)
 
 ### 3. Enlace repositorio remoto
 
 1. Incluye el enlace al repositorio remoto en este punto para que el profesor pueda acceder a él.
    ```text
-    // Enlace al repositorio remoto (en que aparece en la URL del navegador)
+    https://github.com/Jesus-Rosa/EEDD_-NombreApellido-_TE2.1..git
     
     ``` 
